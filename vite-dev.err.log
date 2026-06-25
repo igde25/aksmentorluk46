@@ -1,0 +1,201 @@
+[2m19:22:04[22m [31m[1m[vite][22m[39m [31mInternal server error: C:\Users\PC\OneDrive\Masaüstü\AKSDERS\src\App.tsx: Unexpected token, expected "," (327:80)
+
+[0m [90m 325 |[31m         [33m<[31m[33mdiv[31m className[33m=[31m[32m"aks-brand-card relative m-3 flex items-center gap-3 rounded-2xl border border-white/10 p-3 shadow-xl"[31m[33m>[31m
+ [90m 326 |[31m           [33m<[31m[33mdiv[31m className[33m=[31m[32m"flex h-10 w-10 shrink-0 items-center justify-center bg-gradient-to-tr from-cyan-400 via-indigo-500 to-fuchsia-500 shadow-lg shadow-cyan-500/20 ring-1 ring-white/25 overflow-hidden"[31m
+[31m[1m>[22m[31m[90m 327 |[31m             style[33m=[31m{{ borderRadius[33m:[31m (appSettings[33m.[31mlogoShape[33m||[31m[32m'rounded'[31m)[33m===[31m[32m'circle'[31m[33mTL[31m[32m'50%'[31m[33m:[31m(appSettings[33m.[31mlogoShape[33m||[31m[32m'rounded'[31m)[33m===[31m[32m'square'[31m[33mTL[31m[32m'6px'[31m[33m:[31m[32m'12px'[31m }}[33m>[31m
+ [90m     |[31m                                                                                 [31m[1m^[22m[31m
+ [90m 328 |[31m              {appSettings[33m.[31mlogoDataUrl
+ [90m 329 |[31m                [33m?[31m [33m<[31m[33mimg[31m src[33m=[31m{appSettings[33m.[31mlogoDataUrl} alt[33m=[31m[32m"logo"[31m
+ [90m 330 |[31m                    style[33m=[31m{{ width[33m:[31m[32m'100%'[31m[33m,[31m height[33m:[31m[32m'100%'[31m[33m,[31m objectFit[33m:[31m[32m'cover'[31m[33m,[31m transform[33m:[31m[32m`scale(${appSettings.logoScale||1})`[31m[33m,[31m transformOrigin[33m:[31m[32m'center'[31m }} [33m/[31m[33m>[31m[0m[39m
+  Plugin: [35mvite:react-babel[39m
+  File: [36mC:/Users/PC/OneDrive/Masaüstü/AKSDERS/src/App.tsx[39m:327:80
+[33m  328 |               {appSettings.logoDataUrl
+  329 |                 ? <img src={appSettings.logoDataUrl} alt="logo"
+  330 |  ...${appSettings.logoScale||1})`, transformOrigin:'center' }} />
+      |                                                                 ^
+  331 |                 : <BrainCircuit size={20} className="text-white" />}
+  332 |            </div>[39m
+      at constructor (C:\Users\PC\OneDrive\Masaüstü\AKSDERS\node_modules\@babel\parser\lib\index.js:365:19)
+      at TypeScriptParserMixin.raise (C:\Users\PC\OneDrive\Masaüstü\AKSDERS\node_modules\@babel\parser\lib\index.js:6616:19)
+      at TypeScriptParserMixin.unexpected (C:\Users\PC\OneDrive\Masaüstü\AKSDERS\node_modules\@babel\parser\lib\index.js:6636:16)
+      at TypeScriptParserMixin.expect (C:\Users\PC\OneDrive\Masaüstü\AKSDERS\node_modules\@babel\parser\lib\index.js:6916:12)
+      at TypeScriptParserMixin.parseObjectLike (C:\Users\PC\OneDrive\Masaüstü\AKSDERS\node_modules\@babel\parser\lib\index.js:11839:14)
+      at TypeScriptParserMixin.parseExprAtom (C:\Users\PC\OneDrive\Masaüstü\AKSDERS\node_modules\@babel\parser\lib\index.js:11356:23)
+      at TypeScriptParserMixin.parseExprAtom (C:\Users\PC\OneDrive\Masaüstü\AKSDERS\node_modules\@babel\parser\lib\index.js:4776:20)
+      at TypeScriptParserMixin.parseExprSubscripts (C:\Users\PC\OneDrive\Masaüstü\AKSDERS\node_modules\@babel\parser\lib\index.js:11098:23)
+      at TypeScriptParserMixin.parseUpdate (C:\Users\PC\OneDrive\Masaüstü\AKSDERS\node_modules\@babel\parser\lib\index.js:11083:21)
+      at TypeScriptParserMixin.parseMaybeUnary (C:\Users\PC\OneDrive\Masaüstü\AKSDERS\node_modules\@babel\parser\lib\index.js:11063:23)
+      at TypeScriptParserMixin.parseMaybeUnary (C:\Users\PC\OneDrive\Masaüstü\AKSDERS\node_modules\@babel\parser\lib\index.js:9854:18)
+      at TypeScriptParserMixin.parseMaybeUnaryOrPrivate (C:\Users\PC\OneDrive\Masaüstü\AKSDERS\node_modules\@babel\parser\lib\index.js:10916:61)
+      at TypeScriptParserMixin.parseExprOps (C:\Users\PC\OneDrive\Masaüstü\AKSDERS\node_modules\@babel\parser\lib\index.js:10921:23)
+      at TypeScriptParserMixin.parseMaybeConditional (C:\Users\PC\OneDrive\Masaüstü\AKSDERS\node_modules\@babel\parser\lib\index.js:10898:23)
+      at TypeScriptParserMixin.parseMaybeAssign (C:\Users\PC\OneDrive\Masaüstü\AKSDERS\node_modules\@babel\parser\lib\index.js:10848:21)
+      at TypeScriptParserMixin.parseMaybeAssign (C:\Users\PC\OneDrive\Masaüstü\AKSDERS\node_modules\@babel\parser\lib\index.js:9803:20)
+      at TypeScriptParserMixin.parseExpressionBase (C:\Users\PC\OneDrive\Masaüstü\AKSDERS\node_modules\@babel\parser\lib\index.js:10801:23)
+      at C:\Users\PC\OneDrive\Masaüstü\AKSDERS\node_modules\@babel\parser\lib\index.js:10797:39
+      at TypeScriptParserMixin.allowInAnd (C:\Users\PC\OneDrive\Masaüstü\AKSDERS\node_modules\@babel\parser\lib\index.js:12443:12)
+      at TypeScriptParserMixin.parseExpression (C:\Users\PC\OneDrive\Masaüstü\AKSDERS\node_modules\@babel\parser\lib\index.js:10797:17)
+      at TypeScriptParserMixin.jsxParseExpressionContainer (C:\Users\PC\OneDrive\Masaüstü\AKSDERS\node_modules\@babel\parser\lib\index.js:4644:31)
+      at TypeScriptParserMixin.jsxParseAttributeValue (C:\Users\PC\OneDrive\Masaüstü\AKSDERS\node_modules\@babel\parser\lib\index.js:4616:21)
+      at TypeScriptParserMixin.jsxParseAttribute (C:\Users\PC\OneDrive\Masaüstü\AKSDERS\node_modules\@babel\parser\lib\index.js:4665:38)
+      at TypeScriptParserMixin.jsxParseOpeningElementAfterName (C:\Users\PC\OneDrive\Masaüstü\AKSDERS\node_modules\@babel\parser\lib\index.js:4679:28)
+      at TypeScriptParserMixin.jsxParseOpeningElementAfterName (C:\Users\PC\OneDrive\Masaüstü\AKSDERS\node_modules\@babel\parser\lib\index.js:10060:18)
+      at TypeScriptParserMixin.jsxParseOpeningElementAt (C:\Users\PC\OneDrive\Masaüstü\AKSDERS\node_modules\@babel\parser\lib\index.js:4674:17)
+      at TypeScriptParserMixin.jsxParseElementAt (C:\Users\PC\OneDrive\Masaüstü\AKSDERS\node_modules\@babel\parser\lib\index.js:4698:33)
+      at TypeScriptParserMixin.jsxParseElementAt (C:\Users\PC\OneDrive\Masaüstü\AKSDERS\node_modules\@babel\parser\lib\index.js:4710:32)
+      at TypeScriptParserMixin.jsxParseElementAt (C:\Users\PC\OneDrive\Masaüstü\AKSDERS\node_modules\@babel\parser\lib\index.js:4710:32)
+      at TypeScriptParserMixin.jsxParseElementAt (C:\Users\PC\OneDrive\Masaüstü\AKSDERS\node_modules\@babel\parser\lib\index.js:4710:32)
+      at TypeScriptParserMixin.jsxParseElement (C:\Users\PC\OneDrive\Masaüstü\AKSDERS\node_modules\@babel\parser\lib\index.js:4761:17)
+      at TypeScriptParserMixin.parseExprAtom (C:\Users\PC\OneDrive\Masaüstü\AKSDERS\node_modules\@babel\parser\lib\index.js:4771:19)
+      at TypeScriptParserMixin.parseExprSubscripts (C:\Users\PC\OneDrive\Masaüstü\AKSDERS\node_modules\@babel\parser\lib\index.js:11098:23)
+      at TypeScriptParserMixin.parseUpdate (C:\Users\PC\OneDrive\Masaüstü\AKSDERS\node_modules\@babel\parser\lib\index.js:11083:21)
+      at TypeScriptParserMixin.parseMaybeUnary (C:\Users\PC\OneDrive\Masaüstü\AKSDERS\node_modules\@babel\parser\lib\index.js:11063:23)
+      at TypeScriptParserMixin.parseMaybeUnary (C:\Users\PC\OneDrive\Masaüstü\AKSDERS\node_modules\@babel\parser\lib\index.js:9854:18)
+      at TypeScriptParserMixin.parseMaybeUnaryOrPrivate (C:\Users\PC\OneDrive\Masaüstü\AKSDERS\node_modules\@babel\parser\lib\index.js:10916:61)
+      at TypeScriptParserMixin.parseExprOps (C:\Users\PC\OneDrive\Masaüstü\AKSDERS\node_modules\@babel\parser\lib\index.js:10921:23)
+      at TypeScriptParserMixin.parseMaybeConditional (C:\Users\PC\OneDrive\Masaüstü\AKSDERS\node_modules\@babel\parser\lib\index.js:10898:23)
+      at TypeScriptParserMixin.parseMaybeAssign (C:\Users\PC\OneDrive\Masaüstü\AKSDERS\node_modules\@babel\parser\lib\index.js:10848:21)
+      at C:\Users\PC\OneDrive\Masaüstü\AKSDERS\node_modules\@babel\parser\lib\index.js:9792:39
+      at TypeScriptParserMixin.tryParse (C:\Users\PC\OneDrive\Masaüstü\AKSDERS\node_modules\@babel\parser\lib\index.js:6924:20)
+      at TypeScriptParserMixin.parseMaybeAssign (C:\Users\PC\OneDrive\Masaüstü\AKSDERS\node_modules\@babel\parser\lib\index.js:9792:18)
+      at C:\Users\PC\OneDrive\Masaüstü\AKSDERS\node_modules\@babel\parser\lib\index.js:10817:39
+      at TypeScriptParserMixin.allowInAnd (C:\Users\PC\OneDrive\Masaüstü\AKSDERS\node_modules\@babel\parser\lib\index.js:12443:12)
+      at TypeScriptParserMixin.parseMaybeAssignAllowIn (C:\Users\PC\OneDrive\Masaüstü\AKSDERS\node_modules\@babel\parser\lib\index.js:10817:17)
+      at TypeScriptParserMixin.parseMaybeAssignAllowInOrVoidPattern (C:\Users\PC\OneDrive\Masaüstü\AKSDERS\node_modules\@babel\parser\lib\index.js:12510:17)
+      at TypeScriptParserMixin.parseParenAndDistinguishExpression (C:\Users\PC\OneDrive\Masaüstü\AKSDERS\node_modules\@babel\parser\lib\index.js:11692:28)
+      at TypeScriptParserMixin.parseExprAtom (C:\Users\PC\OneDrive\Masaüstü\AKSDERS\node_modules\@babel\parser\lib\index.js:11348:23)
+      at TypeScriptParserMixin.parseExprAtom (C:\Users\PC\OneDrive\Masaüstü\AKSDERS\node_modules\@babel\parser\lib\index.js:4776:20)
+[2m19:22:06[22m [31m[1m[vite][22m[39m [31mInternal server error: C:\Users\PC\OneDrive\Masaüstü\AKSDERS\src\App.tsx: Unexpected token, expected "," (327:80)
+
+[0m [90m 325 |[31m         [33m<[31m[33mdiv[31m className[33m=[31m[32m"aks-brand-card relative m-3 flex items-center gap-3 rounded-2xl border border-white/10 p-3 shadow-xl"[31m[33m>[31m
+ [90m 326 |[31m           [33m<[31m[33mdiv[31m className[33m=[31m[32m"flex h-10 w-10 shrink-0 items-center justify-center bg-gradient-to-tr from-cyan-400 via-indigo-500 to-fuchsia-500 shadow-lg shadow-cyan-500/20 ring-1 ring-white/25 overflow-hidden"[31m
+[31m[1m>[22m[31m[90m 327 |[31m             style[33m=[31m{{ borderRadius[33m:[31m (appSettings[33m.[31mlogoShape[33m||[31m[32m'rounded'[31m)[33m===[31m[32m'circle'[31m[33mTL[31m[32m'50%'[31m[33m:[31m(appSettings[33m.[31mlogoShape[33m||[31m[32m'rounded'[31m)[33m===[31m[32m'square'[31m[33mTL[31m[32m'6px'[31m[33m:[31m[32m'12px'[31m }}[33m>[31m
+ [90m     |[31m                                                                                 [31m[1m^[22m[31m
+ [90m 328 |[31m              {appSettings[33m.[31mlogoDataUrl
+ [90m 329 |[31m                [33m?[31m [33m<[31m[33mimg[31m src[33m=[31m{appSettings[33m.[31mlogoDataUrl} alt[33m=[31m[32m"logo"[31m
+ [90m 330 |[31m                    style[33m=[31m{{ width[33m:[31m[32m'100%'[31m[33m,[31m height[33m:[31m[32m'100%'[31m[33m,[31m objectFit[33m:[31m[32m'cover'[31m[33m,[31m transform[33m:[31m[32m`scale(${appSettings.logoScale||1})`[31m[33m,[31m transformOrigin[33m:[31m[32m'center'[31m }} [33m/[31m[33m>[31m[0m[39m
+  Plugin: [35mvite:react-babel[39m
+  File: [36mC:/Users/PC/OneDrive/Masaüstü/AKSDERS/src/App.tsx[39m:327:80
+[33m  328 |               {appSettings.logoDataUrl
+  329 |                 ? <img src={appSettings.logoDataUrl} alt="logo"
+  330 |  ...${appSettings.logoScale||1})`, transformOrigin:'center' }} />
+      |                                                                 ^
+  331 |                 : <BrainCircuit size={20} className="text-white" />}
+  332 |            </div>[39m
+      at constructor (C:\Users\PC\OneDrive\Masaüstü\AKSDERS\node_modules\@babel\parser\lib\index.js:365:19)
+      at TypeScriptParserMixin.raise (C:\Users\PC\OneDrive\Masaüstü\AKSDERS\node_modules\@babel\parser\lib\index.js:6616:19)
+      at TypeScriptParserMixin.unexpected (C:\Users\PC\OneDrive\Masaüstü\AKSDERS\node_modules\@babel\parser\lib\index.js:6636:16)
+      at TypeScriptParserMixin.expect (C:\Users\PC\OneDrive\Masaüstü\AKSDERS\node_modules\@babel\parser\lib\index.js:6916:12)
+      at TypeScriptParserMixin.parseObjectLike (C:\Users\PC\OneDrive\Masaüstü\AKSDERS\node_modules\@babel\parser\lib\index.js:11839:14)
+      at TypeScriptParserMixin.parseExprAtom (C:\Users\PC\OneDrive\Masaüstü\AKSDERS\node_modules\@babel\parser\lib\index.js:11356:23)
+      at TypeScriptParserMixin.parseExprAtom (C:\Users\PC\OneDrive\Masaüstü\AKSDERS\node_modules\@babel\parser\lib\index.js:4776:20)
+      at TypeScriptParserMixin.parseExprSubscripts (C:\Users\PC\OneDrive\Masaüstü\AKSDERS\node_modules\@babel\parser\lib\index.js:11098:23)
+      at TypeScriptParserMixin.parseUpdate (C:\Users\PC\OneDrive\Masaüstü\AKSDERS\node_modules\@babel\parser\lib\index.js:11083:21)
+      at TypeScriptParserMixin.parseMaybeUnary (C:\Users\PC\OneDrive\Masaüstü\AKSDERS\node_modules\@babel\parser\lib\index.js:11063:23)
+      at TypeScriptParserMixin.parseMaybeUnary (C:\Users\PC\OneDrive\Masaüstü\AKSDERS\node_modules\@babel\parser\lib\index.js:9854:18)
+      at TypeScriptParserMixin.parseMaybeUnaryOrPrivate (C:\Users\PC\OneDrive\Masaüstü\AKSDERS\node_modules\@babel\parser\lib\index.js:10916:61)
+      at TypeScriptParserMixin.parseExprOps (C:\Users\PC\OneDrive\Masaüstü\AKSDERS\node_modules\@babel\parser\lib\index.js:10921:23)
+      at TypeScriptParserMixin.parseMaybeConditional (C:\Users\PC\OneDrive\Masaüstü\AKSDERS\node_modules\@babel\parser\lib\index.js:10898:23)
+      at TypeScriptParserMixin.parseMaybeAssign (C:\Users\PC\OneDrive\Masaüstü\AKSDERS\node_modules\@babel\parser\lib\index.js:10848:21)
+      at TypeScriptParserMixin.parseMaybeAssign (C:\Users\PC\OneDrive\Masaüstü\AKSDERS\node_modules\@babel\parser\lib\index.js:9803:20)
+      at TypeScriptParserMixin.parseExpressionBase (C:\Users\PC\OneDrive\Masaüstü\AKSDERS\node_modules\@babel\parser\lib\index.js:10801:23)
+      at C:\Users\PC\OneDrive\Masaüstü\AKSDERS\node_modules\@babel\parser\lib\index.js:10797:39
+      at TypeScriptParserMixin.allowInAnd (C:\Users\PC\OneDrive\Masaüstü\AKSDERS\node_modules\@babel\parser\lib\index.js:12443:12)
+      at TypeScriptParserMixin.parseExpression (C:\Users\PC\OneDrive\Masaüstü\AKSDERS\node_modules\@babel\parser\lib\index.js:10797:17)
+      at TypeScriptParserMixin.jsxParseExpressionContainer (C:\Users\PC\OneDrive\Masaüstü\AKSDERS\node_modules\@babel\parser\lib\index.js:4644:31)
+      at TypeScriptParserMixin.jsxParseAttributeValue (C:\Users\PC\OneDrive\Masaüstü\AKSDERS\node_modules\@babel\parser\lib\index.js:4616:21)
+      at TypeScriptParserMixin.jsxParseAttribute (C:\Users\PC\OneDrive\Masaüstü\AKSDERS\node_modules\@babel\parser\lib\index.js:4665:38)
+      at TypeScriptParserMixin.jsxParseOpeningElementAfterName (C:\Users\PC\OneDrive\Masaüstü\AKSDERS\node_modules\@babel\parser\lib\index.js:4679:28)
+      at TypeScriptParserMixin.jsxParseOpeningElementAfterName (C:\Users\PC\OneDrive\Masaüstü\AKSDERS\node_modules\@babel\parser\lib\index.js:10060:18)
+      at TypeScriptParserMixin.jsxParseOpeningElementAt (C:\Users\PC\OneDrive\Masaüstü\AKSDERS\node_modules\@babel\parser\lib\index.js:4674:17)
+      at TypeScriptParserMixin.jsxParseElementAt (C:\Users\PC\OneDrive\Masaüstü\AKSDERS\node_modules\@babel\parser\lib\index.js:4698:33)
+      at TypeScriptParserMixin.jsxParseElementAt (C:\Users\PC\OneDrive\Masaüstü\AKSDERS\node_modules\@babel\parser\lib\index.js:4710:32)
+      at TypeScriptParserMixin.jsxParseElementAt (C:\Users\PC\OneDrive\Masaüstü\AKSDERS\node_modules\@babel\parser\lib\index.js:4710:32)
+      at TypeScriptParserMixin.jsxParseElementAt (C:\Users\PC\OneDrive\Masaüstü\AKSDERS\node_modules\@babel\parser\lib\index.js:4710:32)
+      at TypeScriptParserMixin.jsxParseElement (C:\Users\PC\OneDrive\Masaüstü\AKSDERS\node_modules\@babel\parser\lib\index.js:4761:17)
+      at TypeScriptParserMixin.parseExprAtom (C:\Users\PC\OneDrive\Masaüstü\AKSDERS\node_modules\@babel\parser\lib\index.js:4771:19)
+      at TypeScriptParserMixin.parseExprSubscripts (C:\Users\PC\OneDrive\Masaüstü\AKSDERS\node_modules\@babel\parser\lib\index.js:11098:23)
+      at TypeScriptParserMixin.parseUpdate (C:\Users\PC\OneDrive\Masaüstü\AKSDERS\node_modules\@babel\parser\lib\index.js:11083:21)
+      at TypeScriptParserMixin.parseMaybeUnary (C:\Users\PC\OneDrive\Masaüstü\AKSDERS\node_modules\@babel\parser\lib\index.js:11063:23)
+      at TypeScriptParserMixin.parseMaybeUnary (C:\Users\PC\OneDrive\Masaüstü\AKSDERS\node_modules\@babel\parser\lib\index.js:9854:18)
+      at TypeScriptParserMixin.parseMaybeUnaryOrPrivate (C:\Users\PC\OneDrive\Masaüstü\AKSDERS\node_modules\@babel\parser\lib\index.js:10916:61)
+      at TypeScriptParserMixin.parseExprOps (C:\Users\PC\OneDrive\Masaüstü\AKSDERS\node_modules\@babel\parser\lib\index.js:10921:23)
+      at TypeScriptParserMixin.parseMaybeConditional (C:\Users\PC\OneDrive\Masaüstü\AKSDERS\node_modules\@babel\parser\lib\index.js:10898:23)
+      at TypeScriptParserMixin.parseMaybeAssign (C:\Users\PC\OneDrive\Masaüstü\AKSDERS\node_modules\@babel\parser\lib\index.js:10848:21)
+      at C:\Users\PC\OneDrive\Masaüstü\AKSDERS\node_modules\@babel\parser\lib\index.js:9792:39
+      at TypeScriptParserMixin.tryParse (C:\Users\PC\OneDrive\Masaüstü\AKSDERS\node_modules\@babel\parser\lib\index.js:6924:20)
+      at TypeScriptParserMixin.parseMaybeAssign (C:\Users\PC\OneDrive\Masaüstü\AKSDERS\node_modules\@babel\parser\lib\index.js:9792:18)
+      at C:\Users\PC\OneDrive\Masaüstü\AKSDERS\node_modules\@babel\parser\lib\index.js:10817:39
+      at TypeScriptParserMixin.allowInAnd (C:\Users\PC\OneDrive\Masaüstü\AKSDERS\node_modules\@babel\parser\lib\index.js:12443:12)
+      at TypeScriptParserMixin.parseMaybeAssignAllowIn (C:\Users\PC\OneDrive\Masaüstü\AKSDERS\node_modules\@babel\parser\lib\index.js:10817:17)
+      at TypeScriptParserMixin.parseMaybeAssignAllowInOrVoidPattern (C:\Users\PC\OneDrive\Masaüstü\AKSDERS\node_modules\@babel\parser\lib\index.js:12510:17)
+      at TypeScriptParserMixin.parseParenAndDistinguishExpression (C:\Users\PC\OneDrive\Masaüstü\AKSDERS\node_modules\@babel\parser\lib\index.js:11692:28)
+      at TypeScriptParserMixin.parseExprAtom (C:\Users\PC\OneDrive\Masaüstü\AKSDERS\node_modules\@babel\parser\lib\index.js:11348:23)
+      at TypeScriptParserMixin.parseExprAtom (C:\Users\PC\OneDrive\Masaüstü\AKSDERS\node_modules\@babel\parser\lib\index.js:4776:20)
+[2m19:24:21[22m [31m[1m[vite][22m[39m [31mInternal server error: C:\Users\PC\OneDrive\Masaüstü\AKSDERS\src\App.tsx: Unexpected token, expected "," (327:80)
+
+[0m [90m 325 |[31m         [33m<[31m[33mdiv[31m className[33m=[31m[32m"aks-brand-card relative m-3 flex items-center gap-3 rounded-2xl border border-white/10 p-3 shadow-xl"[31m[33m>[31m
+ [90m 326 |[31m           [33m<[31m[33mdiv[31m className[33m=[31m[32m"flex h-10 w-10 shrink-0 items-center justify-center bg-gradient-to-tr from-cyan-400 via-indigo-500 to-fuchsia-500 shadow-lg shadow-cyan-500/20 ring-1 ring-white/25 overflow-hidden"[31m
+[31m[1m>[22m[31m[90m 327 |[31m             style[33m=[31m{{ borderRadius[33m:[31m (appSettings[33m.[31mlogoShape[33m||[31m[32m'rounded'[31m)[33m===[31m[32m'circle'[31m[33mTL[31m[32m'50%'[31m[33m:[31m(appSettings[33m.[31mlogoShape[33m||[31m[32m'rounded'[31m)[33m===[31m[32m'square'[31m[33mTL[31m[32m'6px'[31m[33m:[31m[32m'12px'[31m }}[33m>[31m
+ [90m     |[31m                                                                                 [31m[1m^[22m[31m
+ [90m 328 |[31m              {appSettings[33m.[31mlogoDataUrl
+ [90m 329 |[31m                [33m?[31m [33m<[31m[33mimg[31m src[33m=[31m{appSettings[33m.[31mlogoDataUrl} alt[33m=[31m[32m"logo"[31m
+ [90m 330 |[31m                    style[33m=[31m{{ width[33m:[31m[32m'100%'[31m[33m,[31m height[33m:[31m[32m'100%'[31m[33m,[31m objectFit[33m:[31m[32m'cover'[31m[33m,[31m transform[33m:[31m[32m`scale(${appSettings.logoScale||1})`[31m[33m,[31m transformOrigin[33m:[31m[32m'center'[31m }} [33m/[31m[33m>[31m[0m[39m
+  Plugin: [35mvite:react-babel[39m
+  File: [36mC:/Users/PC/OneDrive/Masaüstü/AKSDERS/src/App.tsx[39m:327:80
+[33m  328 |               {appSettings.logoDataUrl
+  329 |                 ? <img src={appSettings.logoDataUrl} alt="logo"
+  330 |  ...${appSettings.logoScale||1})`, transformOrigin:'center' }} />
+      |                                                                 ^
+  331 |                 : <BrainCircuit size={20} className="text-white" />}
+  332 |            </div>[39m
+      at constructor (C:\Users\PC\OneDrive\Masaüstü\AKSDERS\node_modules\@babel\parser\lib\index.js:365:19)
+      at TypeScriptParserMixin.raise (C:\Users\PC\OneDrive\Masaüstü\AKSDERS\node_modules\@babel\parser\lib\index.js:6616:19)
+      at TypeScriptParserMixin.unexpected (C:\Users\PC\OneDrive\Masaüstü\AKSDERS\node_modules\@babel\parser\lib\index.js:6636:16)
+      at TypeScriptParserMixin.expect (C:\Users\PC\OneDrive\Masaüstü\AKSDERS\node_modules\@babel\parser\lib\index.js:6916:12)
+      at TypeScriptParserMixin.parseObjectLike (C:\Users\PC\OneDrive\Masaüstü\AKSDERS\node_modules\@babel\parser\lib\index.js:11839:14)
+      at TypeScriptParserMixin.parseExprAtom (C:\Users\PC\OneDrive\Masaüstü\AKSDERS\node_modules\@babel\parser\lib\index.js:11356:23)
+      at TypeScriptParserMixin.parseExprAtom (C:\Users\PC\OneDrive\Masaüstü\AKSDERS\node_modules\@babel\parser\lib\index.js:4776:20)
+      at TypeScriptParserMixin.parseExprSubscripts (C:\Users\PC\OneDrive\Masaüstü\AKSDERS\node_modules\@babel\parser\lib\index.js:11098:23)
+      at TypeScriptParserMixin.parseUpdate (C:\Users\PC\OneDrive\Masaüstü\AKSDERS\node_modules\@babel\parser\lib\index.js:11083:21)
+      at TypeScriptParserMixin.parseMaybeUnary (C:\Users\PC\OneDrive\Masaüstü\AKSDERS\node_modules\@babel\parser\lib\index.js:11063:23)
+      at TypeScriptParserMixin.parseMaybeUnary (C:\Users\PC\OneDrive\Masaüstü\AKSDERS\node_modules\@babel\parser\lib\index.js:9854:18)
+      at TypeScriptParserMixin.parseMaybeUnaryOrPrivate (C:\Users\PC\OneDrive\Masaüstü\AKSDERS\node_modules\@babel\parser\lib\index.js:10916:61)
+      at TypeScriptParserMixin.parseExprOps (C:\Users\PC\OneDrive\Masaüstü\AKSDERS\node_modules\@babel\parser\lib\index.js:10921:23)
+      at TypeScriptParserMixin.parseMaybeConditional (C:\Users\PC\OneDrive\Masaüstü\AKSDERS\node_modules\@babel\parser\lib\index.js:10898:23)
+      at TypeScriptParserMixin.parseMaybeAssign (C:\Users\PC\OneDrive\Masaüstü\AKSDERS\node_modules\@babel\parser\lib\index.js:10848:21)
+      at TypeScriptParserMixin.parseMaybeAssign (C:\Users\PC\OneDrive\Masaüstü\AKSDERS\node_modules\@babel\parser\lib\index.js:9803:20)
+      at TypeScriptParserMixin.parseExpressionBase (C:\Users\PC\OneDrive\Masaüstü\AKSDERS\node_modules\@babel\parser\lib\index.js:10801:23)
+      at C:\Users\PC\OneDrive\Masaüstü\AKSDERS\node_modules\@babel\parser\lib\index.js:10797:39
+      at TypeScriptParserMixin.allowInAnd (C:\Users\PC\OneDrive\Masaüstü\AKSDERS\node_modules\@babel\parser\lib\index.js:12443:12)
+      at TypeScriptParserMixin.parseExpression (C:\Users\PC\OneDrive\Masaüstü\AKSDERS\node_modules\@babel\parser\lib\index.js:10797:17)
+      at TypeScriptParserMixin.jsxParseExpressionContainer (C:\Users\PC\OneDrive\Masaüstü\AKSDERS\node_modules\@babel\parser\lib\index.js:4644:31)
+      at TypeScriptParserMixin.jsxParseAttributeValue (C:\Users\PC\OneDrive\Masaüstü\AKSDERS\node_modules\@babel\parser\lib\index.js:4616:21)
+      at TypeScriptParserMixin.jsxParseAttribute (C:\Users\PC\OneDrive\Masaüstü\AKSDERS\node_modules\@babel\parser\lib\index.js:4665:38)
+      at TypeScriptParserMixin.jsxParseOpeningElementAfterName (C:\Users\PC\OneDrive\Masaüstü\AKSDERS\node_modules\@babel\parser\lib\index.js:4679:28)
+      at TypeScriptParserMixin.jsxParseOpeningElementAfterName (C:\Users\PC\OneDrive\Masaüstü\AKSDERS\node_modules\@babel\parser\lib\index.js:10060:18)
+      at TypeScriptParserMixin.jsxParseOpeningElementAt (C:\Users\PC\OneDrive\Masaüstü\AKSDERS\node_modules\@babel\parser\lib\index.js:4674:17)
+      at TypeScriptParserMixin.jsxParseElementAt (C:\Users\PC\OneDrive\Masaüstü\AKSDERS\node_modules\@babel\parser\lib\index.js:4698:33)
+      at TypeScriptParserMixin.jsxParseElementAt (C:\Users\PC\OneDrive\Masaüstü\AKSDERS\node_modules\@babel\parser\lib\index.js:4710:32)
+      at TypeScriptParserMixin.jsxParseElementAt (C:\Users\PC\OneDrive\Masaüstü\AKSDERS\node_modules\@babel\parser\lib\index.js:4710:32)
+      at TypeScriptParserMixin.jsxParseElementAt (C:\Users\PC\OneDrive\Masaüstü\AKSDERS\node_modules\@babel\parser\lib\index.js:4710:32)
+      at TypeScriptParserMixin.jsxParseElement (C:\Users\PC\OneDrive\Masaüstü\AKSDERS\node_modules\@babel\parser\lib\index.js:4761:17)
+      at TypeScriptParserMixin.parseExprAtom (C:\Users\PC\OneDrive\Masaüstü\AKSDERS\node_modules\@babel\parser\lib\index.js:4771:19)
+      at TypeScriptParserMixin.parseExprSubscripts (C:\Users\PC\OneDrive\Masaüstü\AKSDERS\node_modules\@babel\parser\lib\index.js:11098:23)
+      at TypeScriptParserMixin.parseUpdate (C:\Users\PC\OneDrive\Masaüstü\AKSDERS\node_modules\@babel\parser\lib\index.js:11083:21)
+      at TypeScriptParserMixin.parseMaybeUnary (C:\Users\PC\OneDrive\Masaüstü\AKSDERS\node_modules\@babel\parser\lib\index.js:11063:23)
+      at TypeScriptParserMixin.parseMaybeUnary (C:\Users\PC\OneDrive\Masaüstü\AKSDERS\node_modules\@babel\parser\lib\index.js:9854:18)
+      at TypeScriptParserMixin.parseMaybeUnaryOrPrivate (C:\Users\PC\OneDrive\Masaüstü\AKSDERS\node_modules\@babel\parser\lib\index.js:10916:61)
+      at TypeScriptParserMixin.parseExprOps (C:\Users\PC\OneDrive\Masaüstü\AKSDERS\node_modules\@babel\parser\lib\index.js:10921:23)
+      at TypeScriptParserMixin.parseMaybeConditional (C:\Users\PC\OneDrive\Masaüstü\AKSDERS\node_modules\@babel\parser\lib\index.js:10898:23)
+      at TypeScriptParserMixin.parseMaybeAssign (C:\Users\PC\OneDrive\Masaüstü\AKSDERS\node_modules\@babel\parser\lib\index.js:10848:21)
+      at C:\Users\PC\OneDrive\Masaüstü\AKSDERS\node_modules\@babel\parser\lib\index.js:9792:39
+      at TypeScriptParserMixin.tryParse (C:\Users\PC\OneDrive\Masaüstü\AKSDERS\node_modules\@babel\parser\lib\index.js:6924:20)
+      at TypeScriptParserMixin.parseMaybeAssign (C:\Users\PC\OneDrive\Masaüstü\AKSDERS\node_modules\@babel\parser\lib\index.js:9792:18)
+      at C:\Users\PC\OneDrive\Masaüstü\AKSDERS\node_modules\@babel\parser\lib\index.js:10817:39
+      at TypeScriptParserMixin.allowInAnd (C:\Users\PC\OneDrive\Masaüstü\AKSDERS\node_modules\@babel\parser\lib\index.js:12443:12)
+      at TypeScriptParserMixin.parseMaybeAssignAllowIn (C:\Users\PC\OneDrive\Masaüstü\AKSDERS\node_modules\@babel\parser\lib\index.js:10817:17)
+      at TypeScriptParserMixin.parseMaybeAssignAllowInOrVoidPattern (C:\Users\PC\OneDrive\Masaüstü\AKSDERS\node_modules\@babel\parser\lib\index.js:12510:17)
+      at TypeScriptParserMixin.parseParenAndDistinguishExpression (C:\Users\PC\OneDrive\Masaüstü\AKSDERS\node_modules\@babel\parser\lib\index.js:11692:28)
+      at TypeScriptParserMixin.parseExprAtom (C:\Users\PC\OneDrive\Masaüstü\AKSDERS\node_modules\@babel\parser\lib\index.js:11348:23)
+      at TypeScriptParserMixin.parseExprAtom (C:\Users\PC\OneDrive\Masaüstü\AKSDERS\node_modules\@babel\parser\lib\index.js:4776:20)
